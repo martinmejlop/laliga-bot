@@ -1,0 +1,565 @@
+{
+  "version": 1,
+  "note": "Identidades explícitas de los históricos y fuentes actuales de UEFA Champions League; sin correspondencias aproximadas.",
+  "teams": [
+    {
+      "name": "Bayern Munich",
+      "aliases": [
+        "Bayern Munich",
+        "FC Bayern München",
+        "Bayern München",
+        "Bayern Múnich"
+      ]
+    },
+    {
+      "name": "Manchester City",
+      "aliases": [
+        "Manchester City",
+        "Manchester City FC",
+        "Man City"
+      ]
+    },
+    {
+      "name": "Manchester United",
+      "aliases": [
+        "Manchester United",
+        "Manchester United FC",
+        "Man Utd"
+      ]
+    },
+    {
+      "name": "Inter Milan",
+      "aliases": [
+        "Inter Milan",
+        "Inter",
+        "Internazionale",
+        "FC Internazionale Milano"
+      ]
+    },
+    {
+      "name": "FC Barcelona",
+      "aliases": [
+        "Barcelona",
+        "FC Barcelona"
+      ]
+    },
+    {
+      "name": "Club Atlético de Madrid",
+      "aliases": [
+        "Atletico Madrid",
+        "Atlético Madrid",
+        "Atlético de Madrid",
+        "Club Atlético de Madrid"
+      ]
+    },
+    {
+      "name": "Real Madrid CF",
+      "aliases": [
+        "Real Madrid",
+        "Real Madrid CF"
+      ]
+    },
+    {
+      "name": "Real Betis Balompié",
+      "aliases": [
+        "Real Betis",
+        "Real Betis Balompié",
+        "Betis"
+      ]
+    },
+    {
+      "name": "Arsenal",
+      "aliases": [
+        "Arsenal",
+        "Arsenal FC"
+      ]
+    },
+    {
+      "name": "Aston Villa",
+      "aliases": [
+        "Aston Villa",
+        "Aston Villa FC"
+      ]
+    },
+    {
+      "name": "Liverpool",
+      "aliases": [
+        "Liverpool",
+        "Liverpool FC"
+      ]
+    },
+    {
+      "name": "PSG",
+      "aliases": [
+        "PSG",
+        "Paris Saint-Germain",
+        "Paris Saint-Germain FC"
+      ]
+    },
+    {
+      "name": "Roma",
+      "aliases": [
+        "Roma",
+        "AS Roma",
+        "AS Roma FC"
+      ]
+    },
+    {
+      "name": "Napoli",
+      "aliases": [
+        "Napoli",
+        "SSC Napoli"
+      ]
+    },
+    {
+      "name": "Sporting CP",
+      "aliases": [
+        "Sporting CP",
+        "Sporting",
+        "Sporting Clube de Portugal"
+      ]
+    },
+    {
+      "name": "Feyenoord",
+      "aliases": [
+        "Feyenoord",
+        "Feyenoord Rotterdam"
+      ]
+    },
+    {
+      "name": "PSV",
+      "aliases": [
+        "PSV",
+        "PSV Eindhoven"
+      ]
+    },
+    {
+      "name": "Lille",
+      "aliases": [
+        "Lille",
+        "Lille OSC"
+      ]
+    },
+    {
+      "name": "Bodo/Glimt",
+      "aliases": [
+        "Bodo/Glimt",
+        "FK Bodø/Glimt",
+        "Bodø/Glimt"
+      ]
+    },
+    {
+      "name": "Galatasaray",
+      "aliases": [
+        "Galatasaray",
+        "Galatasaray SK"
+      ]
+    },
+    {
+      "name": "Club Brugge",
+      "aliases": [
+        "Club Brugge",
+        "Club Brugge KV"
+      ]
+    },
+    {
+      "name": "Slovan Bratislava",
+      "aliases": [
+        "Slovan Bratislava",
+        "ŠK Slovan Bratislava"
+      ]
+    },
+    {
+      "name": "Shakhtar Donetsk",
+      "aliases": [
+        "Shakhtar Donetsk",
+        "FK Shakhtar Donetsk"
+      ]
+    },
+    {
+      "name": "Slavia Prague",
+      "aliases": [
+        "Slavia Prague",
+        "SK Slavia Praha"
+      ]
+    },
+    {
+      "name": "Lens",
+      "aliases": [
+        "Lens",
+        "Racing Club de Lens"
+      ]
+    },
+    {
+      "name": "Juventus",
+      "aliases": [
+        "Juventus",
+        "Juventus FC"
+      ]
+    },
+    {
+      "name": "Atalanta",
+      "aliases": [
+        "Atalanta",
+        "Atalanta BC"
+      ]
+    },
+    {
+      "name": "Marseille",
+      "aliases": [
+        "Marseille",
+        "Olympique de Marseille",
+        "Olympique Marseille"
+      ]
+    },
+    {
+      "name": "Benfica",
+      "aliases": [
+        "Benfica",
+        "SL Benfica",
+        "Sport Lisboa e Benfica"
+      ]
+    },
+    {
+      "name": "Bayer Leverkusen",
+      "aliases": [
+        "Bayer Leverkusen",
+        "Bayer 04 Leverkusen"
+      ]
+    },
+    {
+      "name": "Ajax",
+      "aliases": [
+        "Ajax",
+        "AFC Ajax"
+      ]
+    },
+    {
+      "name": "Chelsea",
+      "aliases": [
+        "Chelsea",
+        "Chelsea FC"
+      ]
+    },
+    {
+      "name": "Tottenham Hotspur",
+      "aliases": [
+        "Tottenham Hotspur",
+        "Tottenham Hotspur FC",
+        "Tottenham"
+      ]
+    },
+    {
+      "name": "FC Salzburg",
+      "aliases": [
+        "FC Salzburg",
+        "FC Red Bull Salzburg",
+        "RB Salzburg",
+        "Red Bull Salzburg"
+      ]
+    },
+    {
+      "name": "Dinamo Zagreb",
+      "aliases": [
+        "Dinamo Zagreb",
+        "GNK Dinamo Zagreb"
+      ]
+    },
+    {
+      "name": "Copenhagen",
+      "aliases": [
+        "Copenhagen",
+        "FC København",
+        "FC Copenhagen"
+      ]
+    },
+    {
+      "name": "Monaco",
+      "aliases": [
+        "Monaco",
+        "AS Monaco FC",
+        "AS Monaco"
+      ]
+    },
+    {
+      "name": "Olympiacos",
+      "aliases": [
+        "Olympiacos",
+        "PAE Olympiakos SFP",
+        "Olympiakos"
+      ]
+    },
+    {
+      "name": "Braga",
+      "aliases": [
+        "Braga",
+        "Sporting Clube de Braga"
+      ]
+    },
+    {
+      "name": "Lazio",
+      "aliases": [
+        "Lazio",
+        "SS Lazio"
+      ]
+    },
+    {
+      "name": "Young Boys",
+      "aliases": [
+        "Young Boys",
+        "BSC Young Boys"
+      ]
+    },
+    {
+      "name": "Sparta Prague",
+      "aliases": [
+        "Sparta Prague",
+        "AC Sparta Praha"
+      ]
+    },
+    {
+      "name": "Sturm Graz",
+      "aliases": [
+        "Sturm Graz",
+        "SK Sturm Graz"
+      ]
+    },
+    {
+      "name": "Brest",
+      "aliases": [
+        "Brest",
+        "Stade Brestois 29"
+      ]
+    },
+    {
+      "name": "Antwerp",
+      "aliases": [
+        "Antwerp",
+        "Royal Antwerp FC"
+      ]
+    },
+    {
+      "name": "Celtic",
+      "aliases": [
+        "Celtic",
+        "Celtic FC"
+      ]
+    },
+    {
+      "name": "Rangers",
+      "aliases": [
+        "Rangers",
+        "Rangers FC"
+      ]
+    },
+    {
+      "name": "Red Star Belgrade",
+      "aliases": [
+        "Red Star Belgrade",
+        "FK Crvena Zvezda",
+        "Crvena Zvezda"
+      ]
+    },
+    {
+      "name": "Qarabag",
+      "aliases": [
+        "Qarabag",
+        "Qarabağ Ağdam FK",
+        "Qarabag FK"
+      ]
+    },
+    {
+      "name": "Kairat Almaty",
+      "aliases": [
+        "Kairat Almaty",
+        "FK Kairat"
+      ]
+    },
+    {
+      "name": "Union Saint-Gilloise",
+      "aliases": [
+        "Union Saint-Gilloise",
+        "Royale Union Saint-Gilloise"
+      ]
+    },
+    {
+      "name": "Sabah",
+      "aliases": [
+        "Sabah",
+        "Sabah FK"
+      ]
+    },
+    {
+      "name": "LASK Linz",
+      "aliases": [
+        "LASK Linz",
+        "LASK"
+      ]
+    },
+    {
+      "name": "Viking FK",
+      "aliases": [
+        "Viking FK"
+      ]
+    },
+    {
+      "name": "Como",
+      "aliases": [
+        "Como"
+      ]
+    },
+    {
+      "name": "AEK Athens",
+      "aliases": [
+        "AEK Athens"
+      ]
+    },
+    {
+      "name": "Borussia Dortmund",
+      "aliases": [
+        "Borussia Dortmund"
+      ]
+    },
+    {
+      "name": "RB Leipzig",
+      "aliases": [
+        "RB Leipzig"
+      ]
+    },
+    {
+      "name": "FC Porto",
+      "aliases": [
+        "FC Porto"
+      ]
+    },
+    {
+      "name": "VfB Stuttgart",
+      "aliases": [
+        "VfB Stuttgart"
+      ]
+    },
+    {
+      "name": "Paphos FC",
+      "aliases": [
+        "Paphos FC",
+        "Pafos"
+      ]
+    },
+    {
+      "name": "AC Milan",
+      "aliases": [
+        "AC Milan"
+      ]
+    },
+    {
+      "name": "Beşiktaş",
+      "aliases": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "name": "FC Sheriff",
+      "aliases": [
+        "FC Sheriff"
+      ]
+    },
+    {
+      "name": "Dinamo Kiev",
+      "aliases": [
+        "Dinamo Kiev"
+      ]
+    },
+    {
+      "name": "Villarreal CF",
+      "aliases": [
+        "Villarreal CF",
+        "Villarreal"
+      ]
+    },
+    {
+      "name": "Sevilla FC",
+      "aliases": [
+        "Sevilla FC"
+      ]
+    },
+    {
+      "name": "VfL Wolfsburg",
+      "aliases": [
+        "VfL Wolfsburg"
+      ]
+    },
+    {
+      "name": "Zenit St. Petersburg",
+      "aliases": [
+        "Zenit St. Petersburg"
+      ]
+    },
+    {
+      "name": "Malmö FF",
+      "aliases": [
+        "Malmö FF"
+      ]
+    },
+    {
+      "name": "Viktoria Plzeň",
+      "aliases": [
+        "Viktoria Plzeň"
+      ]
+    },
+    {
+      "name": "Eintracht Frankfurt",
+      "aliases": [
+        "Eintracht Frankfurt"
+      ]
+    },
+    {
+      "name": "Maccabi Haifa",
+      "aliases": [
+        "Maccabi Haifa"
+      ]
+    },
+    {
+      "name": "Newcastle United FC",
+      "aliases": [
+        "Newcastle United FC"
+      ]
+    },
+    {
+      "name": "1. FC Union Berlin",
+      "aliases": [
+        "1. FC Union Berlin"
+      ]
+    },
+    {
+      "name": "Real Sociedad de Fútbol",
+      "aliases": [
+        "Real Sociedad de Fútbol"
+      ]
+    },
+    {
+      "name": "Bologna FC 1909",
+      "aliases": [
+        "Bologna FC 1909"
+      ]
+    },
+    {
+      "name": "Girona FC",
+      "aliases": [
+        "Girona FC"
+      ]
+    },
+    {
+      "name": "Athletic Club",
+      "aliases": [
+        "Athletic Club"
+      ]
+    },
+    {
+      "name": "Fenerbahce",
+      "aliases": [
+        "Fenerbahçe",
+        "Fenerbahçe SK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "task": "T03",
+  "checkedAt": "2026-11-11T21:23:09.596Z",
+  "database": "data/storage-validation.sqlite",
+  "productionDatabase": "data/laliga.sqlite (sin cuotas de prueba)",
+  "summary": {
+    "schemaVersion": 1,
+    "integrity": "ok",
+    "foreignKeyErrors": 0,
+    "counts": {
+      "sources": 2,
+      "payloads": 4,
+      "captures": 4,
+      "teams": 20,
+      "team_aliases": 21,
+      "fixtures": 20,
+      "fixture_aliases": 20,
+      "fixture_observations": 60,
+      "odds_observations": 180,
+      "articles": 1,
+      "article_versions": 1,
+      "article_teams": 1,
+      "artifacts": 0,
+      "artifact_inputs": 0,
+      "issues": 0
+    }
+  },
+  "assertions": {
+    "duplicateImportUnchanged": true,
+    "rawNormalizedSamplesPreserved": true,
+    "newsTeam": "FC Barcelona",
+    "unverifiedRegionPreserved": true,
+    "bet365SpainVerified": false,
+    "realPriceChangesObserved": false
+  },
+  "oddsCaptures": [
+    {
+      "id": "3e2e878e-d852-4fd1-8d72-8169761a6b97",
+      "file": "data/free-odds-checks/2026-11-11T18-47-36.518Z/sample-1.json",
+      "sha256": "022938929d3333bc7e9389eca218b02f7e35226bb4865f97bb56480e9fb56ec9",
+      "receivedAt": "2026-11-11T18:47:37.364Z",
+      "format": "normalized-moviodds-board-v1"
+    },
+    {
+      "id": "956d47c1-5361-41fa-b84b-83710833c04d",
+      "file": "data/free-odds-checks/2026-11-11T18-47-36.518Z/sample-2.json",
+      "sha256": "b87669a898e6e66c8ab5eda60ed75fdf39f1cd5be6fab8be706b53171877b139",
+      "receivedAt": "2026-11-11T18:47:53.020Z",
+      "format": "normalized-moviodds-board-v1"
+    },
+    {
+      "id": "619825f1-bdcd-4e7f-8a1c-6ee188d8e8ef",
+      "file": "data/free-odds-checks/2026-11-11T18-47-36.518Z/sample-3.json",
+      "sha256": "80055aac0c426480e19081f25ad0d65ec38dbcf44a29f1eabb6901963e611861",
+      "receivedAt": "2026-11-11T18:48:08.627Z",
+      "format": "normalized-moviodds-board-v1"
+    }
+  ],
+  "news": {
+    "captureId": "8fb4350d-ac6b-44b7-a8ec-b7b7b0d34958",
+    "versionId": "48759c5a-8469-4b19-8356-b54cdd0081f3",
+    "format": "rss-audit-record-v1",
+    "scope": "Metadatos de la auditoría de T02; no XML original ni artículo completo."
+  },
+  "note": "Datos archivados: no confirman precios actuales, equivalencia con Bet365 España ni oportunidades. Cambios de precio y conflictos se comprueban con ejemplos controlados en tests aislados."
+}

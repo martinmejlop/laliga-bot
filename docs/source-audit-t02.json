@@ -1,0 +1,560 @@
+{
+  "version": 1,
+  "task": "T02",
+  "collectedAt": "2026-11-11T17:48:47.556Z",
+  "results": [
+    {
+      "id": "openfootball-2021-22",
+      "kind": "matches",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2021-22/es.1.json",
+      "checkedAt": "2026-11-11T17:48:16.765Z",
+      "finalUrl": "https://raw.githubusercontent.com/openfootball/football.json/master/2021-22/es.1.json",
+      "status": "sample-obtained",
+      "sha256": "7beb67dd49d7132bf9f7baea540342439b97ed4a7b21ffb90d3231a402c54d02",
+      "bytes": 113895,
+      "lastModified": null,
+      "summary": {
+        "name": "Primera División de España 2021/22",
+        "matches": 380,
+        "scored": 380,
+        "pastUnscored": 0,
+        "futureScored": 0,
+        "missingKickoffTime": 0,
+        "explicitTimezone": false,
+        "teams": 20,
+        "latestScoredDate": "2022-05-22",
+        "examples": [
+          {
+            "round": "Matchday 1",
+            "date": "2021-08-13",
+            "time": "21:00",
+            "team1": "Valencia CF",
+            "team2": "Getafe CF",
+            "score": {
+              "ht": [
+                1,
+                0
+              ],
+              "ft": [
+                1,
+                0
+              ]
+            }
+          },
+          {
+            "round": "Matchday 1",
+            "date": "2021-08-14",
+            "time": "19:30",
+            "team1": "Cádiz CF",
+            "team2": "Levante UD",
+            "score": {
+              "ht": [
+                0,
+                1
+              ],
+              "ft": [
+                1,
+                1
+              ]
+            }
+          }
+        ],
+        "nextExamples": []
+      }
+    },
+    {
+      "id": "openfootball-2022-23",
+      "kind": "matches",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2022-23/es.1.json",
+      "checkedAt": "2026-11-11T17:48:16.794Z",
+      "finalUrl": "https://raw.githubusercontent.com/openfootball/football.json/master/2022-23/es.1.json",
+      "status": "sample-obtained",
+      "sha256": "0204c66c919c2cd5cc3d1ba26be4f68592e4e173843162a9e6755182ccf83778",
+      "bytes": 114885,
+      "lastModified": null,
+      "summary": {
+        "name": "Primera División de España 2022/23",
+        "matches": 380,
+        "scored": 380,
+        "pastUnscored": 0,
+        "futureScored": 0,
+        "missingKickoffTime": 0,
+        "explicitTimezone": false,
+        "teams": 20,
+        "latestScoredDate": "2023-06-04",
+        "examples": [
+          {
+            "round": "Matchday 1",
+            "date": "2022-08-12",
+            "time": "21:00",
+            "team1": "CA Osasuna",
+            "team2": "Sevilla FC",
+            "score": {
+              "ht": [
+                1,
+                1
+              ],
+              "ft": [
+                2,
+                1
+              ]
+            }
+          },
+          {
+            "round": "Matchday 1",
+            "date": "2022-08-13",
+            "time": "17:00",
+            "team1": "RC Celta de Vigo",
+            "team2": "RCD Espanyol de Barcelona",
+            "score": {
+              "ht": [
+                1,
+                0
+              ],
+              "ft": [
+                2,
+                2
+              ]
+            }
+          }
+        ],
+        "nextExamples": []
+      }
+    },
+    {
+      "id": "openfootball-2023-24",
+      "kind": "matches",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/es.1.json",
+      "checkedAt": "2026-11-11T17:48:16.795Z",
+      "finalUrl": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/es.1.json",
+      "status": "sample-obtained",
+      "sha256": "e4c1e1a958f224ba3c815c898982ab495b9577315cc58ee7a5e7b532960f738b",
+      "bytes": 114187,
+      "lastModified": null,
+      "summary": {
+        "name": "Primera División de España 2023/24",
+        "matches": 380,
+        "scored": 380,
+        "pastUnscored": 0,
+        "futureScored": 0,
+        "missingKickoffTime": 0,
+        "explicitTimezone": false,
+        "teams": 20,
+        "latestScoredDate": "2024-05-26",
+        "examples": [
+          {
+            "round": "Matchday 1",
+            "date": "2023-08-11",
+            "time": "19:30",
+            "team1": "UD Almería",
+            "team2": "Rayo Vallecano de Madrid",
+            "score": {
+              "ht": [
+                0,
+                2
+              ],
+              "ft": [
+                0,
+                2
+              ]
+            }
+          },
+          {
+            "round": "Matchday 1",
+            "date": "2023-08-11",
+            "time": "22:00",
+            "team1": "Sevilla FC",
+            "team2": "Valencia CF",
+            "score": {
+              "ht": [
+                0,
+                0
+              ],
+              "ft": [
+                1,
+                2
+              ]
+            }
+          }
+        ],
+        "nextExamples": []
+      }
+    },
+    {
+      "id": "openfootball-2024-25",
+      "kind": "matches",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/es.1.json",
+      "checkedAt": "2026-11-11T17:48:17.062Z",
+      "finalUrl": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/es.1.json",
+      "status": "sample-obtained",
+      "sha256": "da5bfa1b3634e1039d9e71aec50bdc847f8761189e3de235a4e730e0dc64ca38",
+      "bytes": 108296,
+      "lastModified": null,
+      "summary": {
+        "name": "Spain Primera División 2024/25",
+        "matches": 380,
+        "scored": 370,
+        "pastUnscored": 10,
+        "futureScored": 0,
+        "missingKickoffTime": 0,
+        "explicitTimezone": false,
+        "teams": 20,
+        "latestScoredDate": "2025-05-18",
+        "examples": [
+          {
+            "round": "Matchday 1",
+            "date": "2024-08-15",
+            "time": "19:00",
+            "team1": "Athletic Club",
+            "team2": "Getafe CF",
+            "score": {
+              "ht": [
+                1,
+                0
+              ],
+              "ft": [
+                1,
+                1
+              ]
+            }
+          },
+          {
+            "round": "Matchday 1",
+            "date": "2024-08-15",
+            "time": "21:30",
+            "team1": "Real Betis Balompié",
+            "team2": "Girona FC",
+            "score": {
+              "ht": [
+                1,
+                0
+              ],
+              "ft": [
+                1,
+                1
+              ]
+            }
+          }
+        ],
+        "nextExamples": []
+      }
+    },
+    {
+      "id": "openfootball-2025-26",
+      "kind": "matches",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/es.1.json",
+      "checkedAt": "2026-11-11T17:48:17.063Z",
+      "finalUrl": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/es.1.json",
+      "status": "sample-obtained",
+      "sha256": "b40397d8e62c640138548d57a1a9f76150549213d2a07fcbbb90ed0eabc6ccea",
+      "bytes": 108642,
+      "lastModified": null,
+      "summary": {
+        "name": "Spain Primera División 2025/26",
+        "matches": 380,
+        "scored": 365,
+        "pastUnscored": 15,
+        "futureScored": 0,
+        "missingKickoffTime": 0,
+        "explicitTimezone": false,
+        "teams": 20,
+        "latestScoredDate": "2026-05-24",
+        "examples": [
+          {
+            "round": "Matchday 1",
+            "date": "2025-08-15",
+            "time": "19:00",
+            "team1": "Girona FC",
+            "team2": "Rayo Vallecano de Madrid",
+            "score": {
+              "ft": [
+                1,
+                3
+              ],
+              "ht": [
+                0,
+                3
+              ]
+            }
+          },
+          {
+            "round": "Matchday 1",
+            "date": "2025-08-15",
+            "time": "21:30",
+            "team1": "Villarreal CF",
+            "team2": "Real Oviedo",
+            "score": {
+              "ft": [
+                2,
+                0
+              ],
+              "ht": [
+                2,
+                0
+              ]
+            }
+          }
+        ],
+        "nextExamples": []
+      }
+    },
+    {
+      "id": "openfootball-2026-27",
+      "kind": "matches",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json",
+      "checkedAt": "2026-11-11T17:48:17.063Z",
+      "finalUrl": "https://raw.githubusercontent.com/openfootball/football.json/master/2026-27/es.1.json",
+      "status": "sample-obtained",
+      "sha256": "4b1a9906e3f2b279a1f25497a38f2f58e21ec19ea726b882fa646da7c07bc0e0",
+      "bytes": 50771,
+      "lastModified": null,
+      "summary": {
+        "name": "Spain Primera División 2026/27",
+        "matches": 380,
+        "scored": 64,
+        "pastUnscored": 56,
+        "futureScored": 0,
+        "missingKickoffTime": 290,
+        "explicitTimezone": false,
+        "teams": 20,
+        "latestScoredDate": "2026-09-20",
+        "examples": [
+          {
+            "round": "Matchday 1",
+            "date": "2026-08-15",
+            "time": "19:30",
+            "team1": "Deportivo Alavés",
+            "team2": "Getafe CF",
+            "score": {
+              "ht": [
+                0,
+                0
+              ],
+              "ft": [
+                3,
+                0
+              ]
+            }
+          },
+          {
+            "round": "Matchday 1",
+            "date": "2026-08-15",
+            "time": "21:30",
+            "team1": "Sevilla FC",
+            "team2": "Rayo Vallecano de Madrid",
+            "score": {
+              "ht": [
+                0,
+                1
+              ],
+              "ft": [
+                2,
+                1
+              ]
+            }
+          }
+        ],
+        "nextExamples": [
+          {
+            "round": "Matchday 13",
+            "date": "2026-11-22",
+            "team1": "Athletic Club",
+            "team2": "RCD Espanyol de Barcelona"
+          },
+          {
+            "round": "Matchday 13",
+            "date": "2026-11-22",
+            "team1": "FC Barcelona",
+            "team2": "Villarreal CF"
+          }
+        ]
+      }
+    },
+    {
+      "id": "openfootball-license",
+      "kind": "license",
+      "url": "https://raw.githubusercontent.com/openfootball/football.json/master/LICENSE.md",
+      "checkedAt": "2026-11-11T17:48:17.279Z",
+      "finalUrl": "https://raw.githubusercontent.com/openfootball/football.json/master/LICENSE.md",
+      "status": "sample-obtained",
+      "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+      "bytes": 6555,
+      "lastModified": null,
+      "summary": {
+        "license": "CC0-1.0"
+      }
+    },
+    {
+      "id": "marca-rss",
+      "kind": "rss",
+      "url": "https://e00-marca.uecdn.es/rss/futbol/primera-division.xml",
+      "checkedAt": "2026-11-11T17:48:17.279Z",
+      "finalUrl": "https://e00-marca.uecdn.es/rss/futbol/primera-division.xml",
+      "status": "sample-obtained",
+      "sha256": "2e6b911bec8ab6a791e4a4986ab7c400e0ad63edae4b070e7b7ca6951ec05ce9",
+      "bytes": 86363,
+      "lastModified": null,
+      "summary": {
+        "items": 49,
+        "newestPublishedAt": "2026-11-07T07:34:55Z",
+        "oldestPublishedAt": "2026-11-04T14:46:47Z",
+        "invalidPublicationDates": 0,
+        "sample": {
+          "title": "A qué hora es el Espanyol - Deportivo: horario y dónde ver hoy en TV y online el",
+          "url": "https://www.marca.com/futbol/primera-division/2026/11/07/hora-espanyol-deportivo-horario-ver-hoy-tv-online-partido-laliga-ea-sports.html",
+          "publishedAt": "Sat, 07 Nov 2026 08:34:55 +0100",
+          "scope": "Metadatos RSS; no se ha leído el artículo completo ni verificado su contenido."
+        }
+      }
+    },
+    {
+      "id": "mundodeportivo-rss",
+      "kind": "rss",
+      "url": "https://www.mundodeportivo.com/rss/futbol/laliga.xml",
+      "checkedAt": "2026-11-11T17:48:17.28Z",
+      "finalUrl": "https://www.mundodeportivo.com/rss/futbol/laliga.xml",
+      "status": "sample-obtained",
+      "sha256": "cd247e0bd83d34a138a839718ad381b955d48144b8124a3906a36c8949f034d2",
+      "bytes": 175868,
+      "lastModified": "Wed, 11 Nov 2026 17:30:46 GMT",
+      "summary": {
+        "items": 100,
+        "newestPublishedAt": "2026-11-11T15:44:51Z",
+        "oldestPublishedAt": "2026-10-18T21:05:05Z",
+        "invalidPublicationDates": 0,
+        "sample": {
+          "title": "Locura por ver al Barça",
+          "url": "https://www.mundodeportivo.com/futbol/laliga/20261111/1004249933/agotadas-entradas-depor-barcelona-apenas-horas.html",
+          "publishedAt": "11 Nov 2026 16:44:51 +0100",
+          "scope": "Metadatos RSS; no se ha leído el artículo completo ni verificado su contenido."
+        }
+      }
+    },
+    {
+      "id": "espn-calendar",
+      "kind": "calendar",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122",
+      "checkedAt": "2026-11-11T17:48:17.692Z",
+      "finalUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261122",
+      "status": "sample-obtained",
+      "sha256": "1aac88c39158f0d7f66e603f3d64e0178bd2a86129a2f018957da5cf3d7768cb",
+      "bytes": 53948,
+      "lastModified": null,
+      "summary": {
+        "events": 4,
+        "completed": 0,
+        "examples": [
+          {
+            "id": "401882804",
+            "date": "2026-11-22T13:00Z",
+            "name": "Villarreal at Barcelona",
+            "status": "STATUS_SCHEDULED",
+            "competitors": [
+              {
+                "id": "83",
+                "name": "Barcelona",
+                "homeAway": "home",
+                "score": "0"
+              },
+              {
+                "id": "102",
+                "name": "Villarreal",
+                "homeAway": "away",
+                "score": "0"
+              }
+            ]
+          },
+          {
+            "id": "401882800",
+            "date": "2026-11-22T15:15Z",
+            "name": "Real Sociedad at Racing Santander",
+            "status": "STATUS_SCHEDULED",
+            "competitors": [
+              {
+                "id": "87",
+                "name": "Racing Santander",
+                "homeAway": "home",
+                "score": "0"
+              },
+              {
+                "id": "89",
+                "name": "Real Sociedad",
+                "homeAway": "away",
+                "score": "0"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "espn-current-results",
+      "kind": "calendar",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261108",
+      "checkedAt": "2026-11-11T17:48:47.318Z",
+      "finalUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261108",
+      "status": "sample-obtained",
+      "sha256": "21c169b318b2e624d2efc65c41e7dcdf8ae3a4759e9eb5a8a3578131d35597ae",
+      "bytes": 60462,
+      "lastModified": null,
+      "summary": {
+        "events": 5,
+        "completed": 5,
+        "examples": [
+          {
+            "id": "401882814",
+            "date": "2026-11-08T13:00Z",
+            "name": "Real Betis at Elche",
+            "status": "STATUS_FULL_TIME",
+            "competitors": [
+              {
+                "id": "3751",
+                "name": "Elche",
+                "homeAway": "home",
+                "score": "0"
+              },
+              {
+                "id": "244",
+                "name": "Real Betis",
+                "homeAway": "away",
+                "score": "2"
+              }
+            ]
+          },
+          {
+            "id": "401882810",
+            "date": "2026-11-08T15:15Z",
+            "name": "Rayo Vallecano at Real Sociedad",
+            "status": "STATUS_FULL_TIME",
+            "competitors": [
+              {
+                "id": "89",
+                "name": "Real Sociedad",
+                "homeAway": "home",
+                "score": "1"
+              },
+              {
+                "id": "101",
+                "name": "Rayo Vallecano",
+                "homeAway": "away",
+                "score": "0"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "failedRangeAttempt": [
+    {
+      "id": "espn-current-results",
+      "kind": "calendar",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20260801-20261111&limit=1000",
+      "checkedAt": "2026-11-11T17:48:17.693Z",
+      "status": "unavailable",
+      "error": "HTTP 400",
+      "cause": null
+    }
+  ],
+  "note": "Muestras públicas; cuotas de Bet365 elegidas por vía manual, pendiente T05. No acredita licencia abierta de fuentes de terceros."
+}

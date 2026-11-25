@@ -1,0 +1,23 @@
+{
+  "name": "laliga-advisor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Asistente local de análisis de LaLiga y recomendaciones manuales para Bet365",
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "start": "node scripts/launch-panel.mjs",
+    "stop": "node scripts/launch-panel.mjs --stop",
+    "serve": "node src/server.ts",
+    "refresh": "node scripts/refresh-data.ts",
+    "status": "node src/cli.ts status",
+    "sources": "node src/cli.ts sources",
+    "odds:check": "node scripts/check-free-odds.ts",
+    "storage:init": "node src/storage/cli.ts init",
+    "storage:status": "node src/storage/cli.ts status",
+    "storage:evidence": "node src/storage/cli.ts evidence",
+    "storage:check": "node scripts/check-storage.ts",
+    "doctor": "node src/cli.ts doctor",
+    "test": "node --test \"test/*.test.ts\""
+  }
+}

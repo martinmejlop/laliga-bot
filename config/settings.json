@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "competition": "LaLiga",
+  "bookmaker": "bet365",
+  "currency": "EUR",
+  "timezone": "Europe/Madrid",
+  "initialBudgetEur": 100,
+  "mode": "recommendations-only",
+  "execution": "manual",
+  "ollama": {
+    "baseUrl": "http://127.0.0.1:11434",
+    "model": "qwen3:8b",
+    "timeoutMs": 30000
+  }
+}

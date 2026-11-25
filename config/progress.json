@@ -1,0 +1,115 @@
+{
+  "updatedAt": "2026-11-23",
+  "completed": 16,
+  "total": 18,
+  "tasks": [
+    {
+      "id": "01",
+      "title": "Base del proyecto",
+      "status": "done",
+      "detail": "Configuración y respuesta de Qwen local comprobadas."
+    },
+    {
+      "id": "02",
+      "title": "Fuentes gratuitas y cobertura regional",
+      "status": "partial",
+      "detail": "4/5 criterios acreditados. 16 selecciones contrastadas; catálogo 1X2, doble oportunidad y sin empate. Pendiente: observed-source-series."
+    },
+    {
+      "id": "03",
+      "title": "Almacenamiento trazable",
+      "status": "done",
+      "detail": "Versiones, procedencia y duplicados comprobados."
+    },
+    {
+      "id": "04",
+      "title": "Históricos y calendario",
+      "status": "done",
+      "detail": "Históricos y calendario propios de LaLiga y Champions; 825 resultados reglamentarios de Champions y fechas trazables."
+    },
+    {
+      "id": "05",
+      "title": "Vigilancia de cuotas",
+      "status": "partial",
+      "detail": "6/7 criterios acreditados. 302 cambios, 15 retiradas y 0 suspensiones explícitas de fuente. Pendiente: real-suspensions."
+    },
+    {
+      "id": "06",
+      "title": "Variables deportivas",
+      "status": "done",
+      "detail": "Forma, localía, ataque/defensa, rival y descanso."
+    },
+    {
+      "id": "07",
+      "title": "Modelo predictivo",
+      "status": "done",
+      "detail": "Dos modelos independientes de goles; las propuestas comparten saldo y límites."
+    },
+    {
+      "id": "08",
+      "title": "Evaluación cronológica",
+      "status": "done",
+      "detail": "Evaluaciones cronológicas separadas: 407 partidos de prueba de LaLiga y 170 de Champions, con controles por selección."
+    },
+    {
+      "id": "09",
+      "title": "Noticias",
+      "status": "done",
+      "detail": "RSS fechado, alcance y duplicados identificados."
+    },
+    {
+      "id": "10",
+      "title": "Qwen deportivo",
+      "status": "done",
+      "detail": "Extracción local con evidencia y abstención; inferencia real comprobada."
+    },
+    {
+      "id": "11",
+      "title": "Valor y precio mínimo",
+      "status": "done",
+      "detail": "Liquidaciones y abstención por precio sin confirmar."
+    },
+    {
+      "id": "12",
+      "title": "Importes y exposición conjunta",
+      "status": "done",
+      "detail": "Céntimos, límites y requisitos de saldo/mínimo."
+    },
+    {
+      "id": "13",
+      "title": "Registro manual y simulación",
+      "status": "done",
+      "detail": "Libros separados, correcciones y liquidaciones comprobados."
+    },
+    {
+      "id": "14",
+      "title": "Informe detallado",
+      "status": "done",
+      "detail": "Fuentes, limitaciones, modelo y análisis por partido."
+    },
+    {
+      "id": "15",
+      "title": "Panel local",
+      "status": "done",
+      "detail": "Panel comprobado para LaLiga y Champions: filtros, análisis, recálculo y registro manual."
+    },
+    {
+      "id": "16",
+      "title": "Recorrido completo",
+      "status": "done",
+      "detail": "HTTP local: registro, corrección, liquidación, idempotencia, errores y copia aislados."
+    },
+    {
+      "id": "17",
+      "title": "Primer informe real",
+      "status": "done",
+      "detail": "Importes y controles de propuestas de ambas competiciones comprobados."
+    },
+    {
+      "id": "18",
+      "title": "Operación continua desde el panel",
+      "status": "done",
+      "detail": "Arranque con doble clic, vigilancia adaptativa, sin horario ni avisos; copia real restaurada y comprobada en carpeta aislada."
+    }
+  ]
+}

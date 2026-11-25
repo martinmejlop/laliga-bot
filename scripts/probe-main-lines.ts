@@ -1,0 +1,11 @@
+import {readPublicText} from '../src/net.ts';
+import {mkdirSync,writeFileSync} from 'node:fs';
+import {join} from 'node:path';
+import {ROOT} from '../src/config.ts';
+const capture=await readPublicText('https://moviodds.com/snapshot?fi=203186591&site=com');
+const data=JSON.parse(capture.raw);
+const directory=join(ROOT,'data','market-audit',new Date(capture.receivedAt).toISOString().replaceAll(':','-'));
+mkdirSync(directory,{recursive:true});
+writeFileSync(join(directory,'capture.json'),JSON.stringify(capture,null,2));
+const quotes=data.quotes ?? data.matches?.[0]?.quotes ?? [];
+console.log(JSON.stringify({directory,keys:Object.keys(data),meta:{...data,quotes:undefined,matches:undefined},groups:[...new Set(quotes.map(q=>q.group_id))].map(id=>quotes.find(q=>q.group_id===id))},null,2));

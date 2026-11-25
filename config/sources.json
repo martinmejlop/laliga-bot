@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "reviewedOn": "2026-11-15",
+  "oddsMode": "automatic-bet365-required",
+  "paidServicesActivated": false,
+  "monthlyDataBudgetEur": 0,
+  "freeOnly": true,
+  "sources": [
+    {
+      "id": "openfootball",
+      "role": "Históricos de resultados",
+      "status": "seleccionada con control de huecos",
+      "url": "https://github.com/openfootball/football.json",
+      "access": "público, sin clave",
+      "cost": "0; sin garantía de servicio",
+      "rights": "El repositorio declara CC0-1.0; licencia descargada y comprobada.",
+      "fields": [
+        "temporada",
+        "jornada",
+        "fecha",
+        "equipos",
+        "marcador final",
+        "marcador al descanso cuando existe"
+      ],
+      "limitations": "2021/22 a 2023/24 completas en la muestra; huecos posteriores. Horas sin zona explícita; calendario actual provisional. Sin cuotas ni estadísticas de jugadores."
+    },
+    {
+      "id": "espn-scoreboard",
+      "role": "Calendario y resultados recientes: complemento experimental",
+      "status": "integrada como fuente experimental con caché y procedencia",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard",
+      "access": "público sin clave en las dos peticiones diarias probadas; API sin contrato de servicio",
+      "cost": "sin cobro en las consultas públicas realizadas",
+      "rights": "Contenido de ESPN; no se ha acreditado licencia abierta de redistribución. Revisar condiciones para el alcance de integración; no equiparar acceso técnico a licencia abierta.",
+      "fields": [
+        "identificador de partido",
+        "fecha UTC",
+        "equipos e identificadores",
+        "local/visitante",
+        "estado",
+        "marcador"
+      ],
+      "limitations": "Sin SLA ni licencia abierta confirmada; se utiliza para complementar huecos y horarios UTC, conservando capturas y discrepancias."
+    },
+    {
+      "id": "laliga-official",
+      "role": "Referencia oficial para horarios y noticias",
+      "status": "calendario oficial y suspensión de Rayo–Athletic contrastados",
+      "url": "https://www.laliga.com/laliga-easports/calendario",
+      "access": "web pública, parte del calendario depende de contenido dinámico",
+      "cost": "consulta pública sin suscripción comprobada",
+      "rights": "Derechos reservados; usar enlaces y contraste, no asumir licencia de base de datos abierta.",
+      "fields": [
+        "referencia de temporada",
+        "enlaces de calendario y noticias"
+      ],
+      "limitations": "Revisión concreta documentada; no constituye un recolector general oficial ni se inventa UTC a partir de horas sin zona."
+    },
+    {
+      "id": "mundodeportivo-rss",
+      "role": "Titulares de LaLiga",
+      "status": "integrada para metadatos y extractos; actualidad incompleta",
+      "url": "https://www.mundodeportivo.com/rss/futbol/laliga.xml",
+      "access": "RSS público sin clave, comprobado",
+      "cost": "consulta pública sin suscripción comprobada",
+      "rights": "Titulares y artículos con derechos reservados. Conservar referencia y fragmentos mínimos; el RSS no concede licencia abierta de entrenamiento o publicación de textos.",
+      "fields": [
+        "titular",
+        "enlace",
+        "fecha de publicación"
+      ],
+      "limitations": "Último elemento de la muestra del 15/11/2026 publicado el 11/11; 100 elementos, sin cobertura exhaustiva de bajas. No se afirma haber leído artículos completos."
+    },
+    {
+      "id": "marca-rss",
+      "role": "Titulares: fuente secundaria",
+      "status": "accesible pero muestra antigua; no usar como actualidad",
+      "url": "https://e00-marca.uecdn.es/rss/futbol/primera-division.xml",
+      "access": "RSS público sin clave, comprobado",
+      "cost": "consulta pública sin suscripción comprobada",
+      "rights": "Derechos reservados; mismas precauciones de referencia y fragmentos mínimos que el otro RSS.",
+      "fields": [
+        "titular",
+        "enlace",
+        "fecha de publicación"
+      ],
+      "limitations": "El último titular recibido era del 07/11/2026 al consultar el 11/11. No suponer actualizado por devolver HTTP 200."
+    },
+    {
+      "id": "bet365-manual",
+      "role": "Entrada manual: descartada como fuente operativa",
+      "status": "no satisface vigilancia de oportunidades; no seleccionada",
+      "url": "https://www.bet365.es/",
+      "access": "el usuario copia las cuotas que ve; sin proporcionar credenciales al bot",
+      "cost": "sin proveedor de datos contratado",
+      "rights": "Entrada personal de observaciones; no extracción automatizada ni redistribución de catálogos.",
+      "fields": [
+        "partido",
+        "mercado",
+        "periodo",
+        "selección",
+        "línea",
+        "cuota decimal",
+        "hora de observación",
+        "reglas"
+      ],
+      "limitations": "El usuario exige obtención automática continua. No utilizar esta vía para dar por completada T02/T05."
+    },
+    {
+      "id": "oddsapi-dev",
+      "role": "Cuotas automáticas: candidato futuro",
+      "status": "descartado por coste: usuario exige solo opciones gratuitas",
+      "url": "https://www.oddsapi.dev/odds/la-liga",
+      "access": "API independiente con clave; catálogo anuncia Bet365/LaLiga",
+      "cost": "web consultada: desde USD 50/mes, prueba 7 días; no activada",
+      "rights": "Proveedor independiente, sujeto a contrato. No es una API oficial de Bet365. Condiciones y correspondencia regional pendientes.",
+      "fields": [
+        "según documentación: eventos",
+        "mercados",
+        "selecciones",
+        "líneas",
+        "precio",
+        "actualización"
+      ],
+      "limitations": "El ejemplo consultado está fechado el 07/11 y el partido ya se jugó. No demuestra un precio actual ni que coincida con Bet365 España."
+    },
+    {
+      "id": "moviodds-free",
+      "role": "Cuotas automáticas gratuitas: candidato con conexión comprobada",
+      "status": "REST automático integrado; aceptación externa completa pendiente",
+      "url": "https://moviodds.com/doc",
+      "access": "endpoint público sin clave probado; site=com explícito, sin cuentas ni tarjeta",
+      "cost": "0; excluidos Bet Builder y cualquier opción de pago",
+      "rights": "Proveedor independiente; permite sus datos en aplicaciones propias según sus términos, sin revender el acceso. Servicio sin garantía de continuidad.",
+      "fields": [
+        "partido",
+        "inicio UTC",
+        "grupo/mercado/selección",
+        "precio",
+        "último cambio",
+        "última confirmación por mercado",
+        "suspensión"
+      ],
+      "limitations": "Muestra real: 20 partidos, 500 cuotas y 460 selecciones con correspondencia matemática. Contraste público limitado a siete selecciones de tres mercados españoles, mismo precio y 24 h. Plan gratuito anuncia 5.000 consultas mensuales y mercados principales; aplicación limita a 4.800. Sin garantía de tiempo real ni equivalencia regional general."
+    }
+  ],
+  "firstFamilyCandidateCatalog": {
+    "status": "catálogo para implementar, no mercados ya operativos ni cobertura garantizada",
+    "period": "full_time_regulation",
+    "markets": [
+      {
+        "key": "match_result",
+        "selections": [
+          "home",
+          "draw",
+          "away"
+        ]
+      },
+      {
+        "key": "double_chance",
+        "selections": [
+          "home_draw",
+          "home_away",
+          "draw_away"
+        ]
+      },
+      {
+        "key": "draw_no_bet",
+        "selections": [
+          "home",
+          "away"
+        ]
+      },
+      {
+        "key": "european_handicap",
+        "homeLines": [
+          -1,
+          1
+        ],
+        "selections": [
+          "home",
+          "draw",
+          "away"
+        ]
+      },
+      {
+        "key": "asian_handicap",
+        "homeLines": [
+          -1.5,
+          -1,
+          -0.75,
+          -0.5,
+          -0.25,
+          0,
+          0.25,
+          0.5,
+          0.75,
+          1,
+          1.5
+        ],
+        "selections": [
+          "home",
+          "away"
+        ]
+      }
+    ],
+    "rule": "Activar solo selecciones/líneas realmente observadas en Bet365 con sus reglas de liquidación confirmadas en T05. El hándicap es sobre el equipo local; un mercado equivalente no constituye exposición independiente."
+  }
+}

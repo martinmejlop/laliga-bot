@@ -1,0 +1,21 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/*
+!data/.gitkeep
+reports/*
+!reports/.gitkeep
+*.log
+
+# Evidencias y capturas de la instalación local
+/docs/*.jpg
+/docs/bet365-es-nov20.txt
+/docs/AVANCE_2026-11-20.md
+/docs/REVISION_CONFIG_2026-11-20.md
+/docs/OPERACION_MANUAL.md
+/docs/champions-live-acceptance-nov23.json
+/docs/operational-live-check-nov23.json
+/docs/regional-authenticated-nov20.json
+/docs/conexion-autenticada-evidence.json
+/docs/entrega-evidence.json

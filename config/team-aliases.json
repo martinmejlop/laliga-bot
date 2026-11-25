@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "scope": "Nombres observados en las muestras de T02; correspondencias explícitas, sin aproximación automática.",
+  "teams": [
+    { "name": "Athletic Club", "moviodds": ["Athletic Club"] },
+    { "name": "CA Osasuna", "moviodds": ["Osasuna"] },
+    { "name": "Club Atlético de Madrid", "moviodds": ["Atletico Madrid"] },
+    { "name": "Deportivo Alavés", "moviodds": ["CD Alaves"] },
+    { "name": "Elche CF", "moviodds": ["Elche"] },
+    { "name": "FC Barcelona", "moviodds": ["Barcelona"], "mundodeportivo": ["Barça"] },
+    { "name": "Getafe CF", "moviodds": ["Getafe"] },
+    { "name": "Levante UD", "moviodds": ["Levante"] },
+    { "name": "Málaga CF", "moviodds": ["Malaga"] },
+    { "name": "Rayo Vallecano de Madrid", "moviodds": ["Rayo Vallecano"] },
+    { "name": "RC Celta de Vigo", "moviodds": ["Celta Vigo"] },
+    { "name": "RC Deportivo La Coruña", "moviodds": ["Deportivo A Coruna"] },
+    { "name": "RCD Espanyol de Barcelona", "moviodds": ["Espanyol"] },
+    { "name": "Real Betis Balompié", "moviodds": ["Real Betis"] },
+    { "name": "Real Madrid CF", "moviodds": ["Real Madrid"] },
+    { "name": "Real Racing Club de Santander", "moviodds": ["Racing Santander"] },
+    { "name": "Real Sociedad de Fútbol", "moviodds": ["Real Sociedad"] },
+    { "name": "Sevilla FC", "moviodds": ["Sevilla"] },
+    { "name": "Valencia CF", "moviodds": ["Valencia"] },
+    { "name": "Villarreal CF", "moviodds": ["Villarreal"] }
+  ]
+}

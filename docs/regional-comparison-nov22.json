@@ -1,0 +1,360 @@
+{
+  "checkedAt": "2026-11-22T17:27:33.528Z",
+  "acceptedMarkets": 7,
+  "acceptedSelections": 19,
+  "coverage": [
+    {
+      "eventId": "203186611",
+      "groupId": "40",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-22T17:08:57.715Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186611/F3/G40/",
+      "scope": "sampled-coverage",
+      "marketHeading": "Resultado final",
+      "kickoffAt": 1795368600000,
+      "selections": [
+        {
+          "selectionId": "257838524",
+          "line": null,
+          "sourcePrice": 1.75,
+          "displayPrice": 1.75,
+          "label": "Osasuna",
+          "side": "home"
+        },
+        {
+          "selectionId": "257838531",
+          "line": null,
+          "sourcePrice": 3.7,
+          "displayPrice": 3.7,
+          "label": "Draw",
+          "side": "draw"
+        },
+        {
+          "selectionId": "257838534",
+          "line": null,
+          "sourcePrice": 4.5,
+          "displayPrice": 4.5,
+          "label": "Malaga",
+          "side": "away"
+        }
+      ],
+      "evidence": {
+        "spanMs": 3310,
+        "publicFile": "ata\\regional-evidence\\2026-11-22\\203186611.json",
+        "publicSha256": "015f382f955ee4702da8d6be9a4f881d79143afa0841fc57492b972e12315fdf",
+        "sourceFile": "1.json",
+        "sourceSha256": "1bb18264428e55fbe40ce4aa1fbe26c09f27d033d6ae2db7a92c5a0f6da48c68",
+        "sourceReceivedAt": 1795367337715,
+        "bookmakerObservedAt": 1795367334405,
+        "discardedInvalidFrames": []
+      }
+    },
+    {
+      "eventId": "204834847",
+      "groupId": "40",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-22T17:09:43.091Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E204834847/F3/G40/",
+      "scope": "sampled-coverage",
+      "marketHeading": "Resultado final",
+      "kickoffAt": 1795377600000,
+      "selections": [
+        {
+          "selectionId": "493197007",
+          "line": null,
+          "sourcePrice": 7,
+          "displayPrice": 7,
+          "label": "Getafe",
+          "side": "home"
+        },
+        {
+          "selectionId": "493197012",
+          "line": null,
+          "sourcePrice": 3.9,
+          "displayPrice": 3.9,
+          "label": "Draw",
+          "side": "draw"
+        },
+        {
+          "selectionId": "493197013",
+          "line": null,
+          "sourcePrice": 1.5333333333333332,
+          "displayPrice": 1.53,
+          "label": "Atletico Madrid",
+          "side": "away"
+        }
+      ],
+      "evidence": {
+        "spanMs": 5192,
+        "publicFile": "ata\\regional-evidence\\2026-11-22\\204834847.json",
+        "publicSha256": "1413e5a7ed577abd0765f4eb56d40ac7ff3098e0776c4c1f11aa0928033bc47f",
+        "sourceFile": "7.json",
+        "sourceSha256": "9a6335d924ba7145e10be50c11ee09fa56ddf0b231321984e2a96ae5075fded6",
+        "sourceReceivedAt": 1795367377899,
+        "bookmakerObservedAt": 1795367383091,
+        "discardedInvalidFrames": []
+      }
+    },
+    {
+      "eventId": "204834847",
+      "groupId": "10114",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-22T17:09:43.091Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E204834847/F3/G40/",
+      "scope": "sampled-coverage",
+      "marketHeading": "Doble oportunidad",
+      "kickoffAt": 1795377600000,
+      "selections": [
+        {
+          "selectionId": "493198176",
+          "line": null,
+          "sourcePrice": 2.375,
+          "displayPrice": 2.37,
+          "label": "Getafe or Draw",
+          "side": "home_draw"
+        },
+        {
+          "selectionId": "493198170",
+          "line": null,
+          "sourcePrice": 1.1,
+          "displayPrice": 1.1,
+          "label": "Draw or Atletico Madrid",
+          "side": "draw_away"
+        },
+        {
+          "selectionId": "493198175",
+          "line": null,
+          "sourcePrice": 1.25,
+          "displayPrice": 1.25,
+          "label": "Getafe or Atletico Madrid",
+          "side": "home_away"
+        }
+      ],
+      "evidence": {
+        "spanMs": 5192,
+        "publicFile": "ata\\regional-evidence\\2026-11-22\\204834847.json",
+        "publicSha256": "1413e5a7ed577abd0765f4eb56d40ac7ff3098e0776c4c1f11aa0928033bc47f",
+        "sourceFile": "7.json",
+        "sourceSha256": "9a6335d924ba7145e10be50c11ee09fa56ddf0b231321984e2a96ae5075fded6",
+        "sourceReceivedAt": 1795367377899,
+        "bookmakerObservedAt": 1795367383091,
+        "discardedInvalidFrames": []
+      }
+    },
+    {
+      "eventId": "204834847",
+      "groupId": "10544",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-22T17:09:43.091Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E204834847/F3/G40/",
+      "scope": "sampled-coverage",
+      "marketHeading": "Resultado sin empate",
+      "kickoffAt": 1795377600000,
+      "selections": [
+        {
+          "selectionId": "493198268",
+          "line": null,
+          "sourcePrice": 5,
+          "displayPrice": 5,
+          "label": "Getafe",
+          "side": "home"
+        },
+        {
+          "selectionId": "493198273",
+          "line": null,
+          "sourcePrice": 1.1666666666666667,
+          "displayPrice": 1.16,
+          "label": "Atletico Madrid",
+          "side": "away"
+        }
+      ],
+      "evidence": {
+        "spanMs": 5192,
+        "publicFile": "ata\\regional-evidence\\2026-11-22\\204834847.json",
+        "publicSha256": "1413e5a7ed577abd0765f4eb56d40ac7ff3098e0776c4c1f11aa0928033bc47f",
+        "sourceFile": "7.json",
+        "sourceSha256": "9a6335d924ba7145e10be50c11ee09fa56ddf0b231321984e2a96ae5075fded6",
+        "sourceReceivedAt": 1795367377899,
+        "bookmakerObservedAt": 1795367383091,
+        "discardedInvalidFrames": []
+      }
+    },
+    {
+      "eventId": "203186605",
+      "groupId": "40",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-22T17:10:18.172Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186605/F3/G40/",
+      "scope": "sampled-coverage",
+      "marketHeading": "Resultado final",
+      "kickoffAt": 1795464000000,
+      "selections": [
+        {
+          "selectionId": "257837980",
+          "line": null,
+          "sourcePrice": 2.15,
+          "displayPrice": 2.15,
+          "label": "Levante",
+          "side": "home"
+        },
+        {
+          "selectionId": "257837983",
+          "line": null,
+          "sourcePrice": 3.6,
+          "displayPrice": 3.6,
+          "label": "Draw",
+          "side": "draw"
+        },
+        {
+          "selectionId": "257837984",
+          "line": null,
+          "sourcePrice": 3.2,
+          "displayPrice": 3.2,
+          "label": "Elche",
+          "side": "away"
+        }
+      ],
+      "evidence": {
+        "spanMs": 4282,
+        "publicFile": "ata\\regional-evidence\\2026-11-22\\203186605.json",
+        "publicSha256": "b6ac70ce92121204ae936f8c00e421ebf01f03f0128e10e473986992a3fd729a",
+        "sourceFile": "5.json",
+        "sourceSha256": "1d71b8b9a796898fdf2654f804a2eb8ca258b54121fc7fcb434a2b1b2a01a958",
+        "sourceReceivedAt": 1795367418172,
+        "bookmakerObservedAt": 1795367413890,
+        "discardedInvalidFrames": []
+      }
+    },
+    {
+      "eventId": "203186605",
+      "groupId": "10114",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-22T17:10:18.172Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186605/F3/G40/",
+      "scope": "sampled-coverage",
+      "marketHeading": "Doble oportunidad",
+      "kickoffAt": 1795464000000,
+      "selections": [
+        {
+          "selectionId": "260089452",
+          "line": null,
+          "sourcePrice": 1.3636363636363638,
+          "displayPrice": 1.36,
+          "label": "Levante or Draw",
+          "side": "home_draw"
+        },
+        {
+          "selectionId": "260089440",
+          "line": null,
+          "sourcePrice": 1.6666666666666665,
+          "displayPrice": 1.66,
+          "label": "Draw or Elche",
+          "side": "draw_away"
+        },
+        {
+          "selectionId": "260089450",
+          "line": null,
+          "sourcePrice": 1.2857142857142856,
+          "displayPrice": 1.28,
+          "label": "Levante or Elche",
+          "side": "home_away"
+        }
+      ],
+      "evidence": {
+        "spanMs": 4282,
+        "publicFile": "ata\\regional-evidence\\2026-11-22\\203186605.json",
+        "publicSha256": "b6ac70ce92121204ae936f8c00e421ebf01f03f0128e10e473986992a3fd729a",
+        "sourceFile": "5.json",
+        "sourceSha256": "1d71b8b9a796898fdf2654f804a2eb8ca258b54121fc7fcb434a2b1b2a01a958",
+        "sourceReceivedAt": 1795367418172,
+        "bookmakerObservedAt": 1795367413890,
+        "discardedInvalidFrames": []
+      }
+    },
+    {
+      "eventId": "203186605",
+      "groupId": "10544",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-22T17:10:18.172Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186605/F3/G40/",
+      "scope": "sampled-coverage",
+      "marketHeading": "Resultado sin empate",
+      "kickoffAt": 1795464000000,
+      "selections": [
+        {
+          "selectionId": "260089630",
+          "line": null,
+          "sourcePrice": 1.5714285714285714,
+          "displayPrice": 1.57,
+          "label": "Levante",
+          "side": "home"
+        },
+        {
+          "selectionId": "260089654",
+          "line": null,
+          "sourcePrice": 2.25,
+          "displayPrice": 2.25,
+          "label": "Elche",
+          "side": "away"
+        }
+      ],
+      "evidence": {
+        "spanMs": 4282,
+        "publicFile": "ata\\regional-evidence\\2026-11-22\\203186605.json",
+        "publicSha256": "b6ac70ce92121204ae936f8c00e421ebf01f03f0128e10e473986992a3fd729a",
+        "sourceFile": "5.json",
+        "sourceSha256": "1d71b8b9a796898fdf2654f804a2eb8ca258b54121fc7fcb434a2b1b2a01a958",
+        "sourceReceivedAt": 1795367418172,
+        "bookmakerObservedAt": 1795367413890,
+        "discardedInvalidFrames": []
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "eventId": "203186611",
+      "groupId": "10114",
+      "reason": "Ninguna captura temporalmente válida del grupo dentro de un minuto.",
+      "invalidFrames": [
+        {
+          "sourceFile": "002-203186611.json",
+          "reason": "Marcas o identidades del grupo incoherentes."
+        },
+        {
+          "sourceFile": "001-203186611.json",
+          "reason": "Marcas o identidades del grupo incoherentes."
+        },
+        {
+          "sourceFile": "003-203186611.json",
+          "reason": "Marcas o identidades del grupo incoherentes."
+        },
+        {
+          "sourceFile": "000-203186611.json",
+          "reason": "Marcas o identidades del grupo incoherentes."
+        },
+        {
+          "sourceFile": "004-203186611.json",
+          "reason": "Marcas o identidades del grupo incoherentes."
+        }
+      ]
+    },
+    {
+      "eventId": "203186611",
+      "groupId": "10544",
+      "side": "home",
+      "sourcePrice": 1.3333333333333333,
+      "displayPrice": 1.3,
+      "sourceFile": "002-203186611.json",
+      "reason": "Diferencia de precio superior a redondeo/truncado."
+    },
+    {
+      "eventId": "203186611",
+      "groupId": "10544",
+      "side": "away",
+      "sourcePrice": 3.25,
+      "displayPrice": 3.4,
+      "sourceFile": "002-203186611.json",
+      "reason": "Diferencia de precio superior a redondeo/truncado."
+    }
+  ]
+}

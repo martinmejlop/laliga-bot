@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "id": "champions-prematch-results-v1",
+  "reviewedOn": "2026-11-22",
+  "competition": "Champions",
+  "bookmaker": "bet365",
+  "region": "ES",
+  "period": "full_time_regulation",
+  "scope": "UEFA Champions League masculina: resultado de 90 minutos y descuento, sin prórroga, penaltis ni ganador de eliminatoria; modelo y evaluación propios.",
+  "initialMarkets": [
+    {
+      "kind": "1x2",
+      "name": "Resultado final",
+      "groupIds": [
+        "40"
+      ],
+      "selections": [
+        {
+          "side": "home",
+          "line": null
+        },
+        {
+          "side": "draw",
+          "line": null
+        },
+        {
+          "side": "away",
+          "line": null
+        }
+      ],
+      "settlement": "Gana la selección correspondiente al resultado al finalizar el tiempo reglamentario y el descuento. No incluye prórroga ni penaltis. Los encuentros interrumpidos exigen revisión específica; el bot no los trata como 90 minutos nuevos.",
+      "rules": [
+        {
+          "url": "https://help.bet365.es/s/es-es/sports/football-betting-markets",
+          "checkedOn": "2026-11-22",
+          "scope": "Definición del mercado de resultado final."
+        },
+        {
+          "url": "https://help.bet365.es/s/es-es/sportsrules/soccer/result-event-half-time",
+          "checkedOn": "2026-11-22",
+          "scope": "Tiempo reglamentario, descuento y exclusión de prórroga y penaltis."
+        }
+      ]
+    },
+    {
+      "kind": "double_chance",
+      "name": "Doble oportunidad",
+      "groupIds": [
+        "10114"
+      ],
+      "selections": [
+        {
+          "side": "home_draw",
+          "line": null
+        },
+        {
+          "side": "draw_away",
+          "line": null
+        },
+        {
+          "side": "home_away",
+          "line": null
+        }
+      ],
+      "settlement": "La selección gana si ocurre cualquiera de sus dos resultados comprendidos. Se aplica el periodo reglamentario del encuentro; la primera denominación es el local a efectos de apuesta en campo neutral.",
+      "rules": [
+        {
+          "url": "https://help.bet365.es/s/es-es/sportsrules/soccer/result-event-half-time",
+          "checkedOn": "2026-11-22",
+          "scope": "Doble oportunidad y regla de 90 minutos."
+        }
+      ]
+    },
+    {
+      "kind": "dnb",
+      "name": "Resultado sin empate",
+      "groupIds": [
+        "10544"
+      ],
+      "selections": [
+        {
+          "side": "home",
+          "line": null
+        },
+        {
+          "side": "away",
+          "line": null
+        }
+      ],
+      "settlement": "Victoria del equipo elegido: ganancia; derrota: pérdida; empate reglamentario: devolución. Es la liquidación matemática equivalente al hándicap asiático cero, no una autorización de otros hándicaps o promociones.",
+      "rules": [
+        {
+          "url": "https://help.bet365.es/s/es-es/sportsrules/soccer/asian-handicap",
+          "checkedOn": "2026-11-22",
+          "scope": "Hándicap cero: referencia oficial de la devolución por empate; correspondencia matemática con resultado sin empate, que exige etiqueta exacta en el contraste público."
+        }
+      ],
+      "requiresDisplayedLabel": "Resultado sin empate"
+    }
+  ],
+  "researchMarkets": [
+    {
+      "kind": "asian_handicap",
+      "groupIds": [
+        "938",
+        "178002"
+      ],
+      "sides": [
+        "home",
+        "away"
+      ],
+      "candidateLines": [
+        -1.5,
+        -1,
+        -0.75,
+        -0.5,
+        -0.25,
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1,
+        1.5
+      ],
+      "status": "research",
+      "reason": "La matemática y reglas generales están implementadas, pero cada grupo, lado y línea requiere su contraste específico antes de ampliar el catálogo inicial.",
+      "ruleUrl": "https://help.bet365.es/s/es-es/sportsrules/soccer/asian-handicap"
+    },
+    {
+      "kind": "european_handicap",
+      "groupIds": [
+        "171"
+      ],
+      "sides": [
+        "home"
+      ],
+      "candidateLines": [
+        -1,
+        1
+      ],
+      "status": "research",
+      "reason": "Solo está interpretado el lado local. No generalizar signo ni habilitar los otros lados."
+    },
+    {
+      "kind": "total_goals",
+      "groupIds": [
+        "981",
+        "10143"
+      ],
+      "status": "research",
+      "reason": "Calculado; controles de validación del modelo no superados actualmente."
+    },
+    {
+      "kind": "btts",
+      "groupIds": [
+        "10150"
+      ],
+      "status": "research",
+      "reason": "Calculado; controles de validación del modelo no superados actualmente."
+    }
+  ],
+  "futureFamilies": [
+    "team_goals",
+    "halves",
+    "corners",
+    "cards",
+    "fouls",
+    "offsides",
+    "scorers",
+    "assists",
+    "shots",
+    "player_stats",
+    "goalkeeper",
+    "season",
+    "in_play",
+    "combinations"
+  ],
+  "exclusions": [
+    "Promociones, cuotas mejoradas y pagos anticipados no se modelan como una mejora automática de rentabilidad.",
+    "No se aceptan partidos ya empezados, reanudaciones como 90 minutos nuevos, otros periodos o ligas.",
+    "La primera entrega no acredita rentabilidad, disponibilidad continua ni igualdad universal con una cuenta de España.",
+    "Finales neutrales y clasificarse o ganador de eliminatoria requieren otro modelo y no se proponen."
+  ]
+}

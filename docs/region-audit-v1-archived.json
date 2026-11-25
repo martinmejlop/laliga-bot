@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "scope": "Contraste de precios en la página pública española, sin iniciar sesión. Solo las selecciones indicadas y mientras el precio siga igual; no valida toda la cuenta ni todas las familias.",
+  "checkedAt": "2026-11-15T10:33:30.000Z",
+  "expiresAfterHours": 24,
+  "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186591/F3/G40/",
+  "eventId": "203186591",
+  "event": "Athletic Club v Espanyol, 20/11/2026 21:00 Europe/Madrid",
+  "selections": [
+    {"selectionId":"257836178","groupId":"40","price":1.45,"label":"Athletic Club"},
+    {"selectionId":"257836185","groupId":"40","price":4.1,"label":"Empate"},
+    {"selectionId":"257836188","groupId":"40","price":7,"label":"Espanyol"},
+    {"selectionId":"257836190","groupId":"981","price":1.8,"label":"Más de 2.5 goles"},
+    {"selectionId":"257836195","groupId":"981","price":2,"label":"Menos de 2.5 goles"},
+    {"selectionId":"260015308","groupId":"10150","price":1.95,"label":"Ambos marcan: sí"},
+    {"selectionId":"260015313","groupId":"10150","price":1.8,"label":"Ambos marcan: no"}
+  ]
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light"><title>LaLiga y Champions · Observatorio</title>
+  <link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#overview">Ir al contenido</a>
+  <aside class="sidebar">
+    <a class="brand" href="#overview" aria-label="LaLiga y Champions, inicio"><span class="brand-symbol">L<span>·</span></span><span>Fútbol<small>LALIGA + CHAMPIONS</small></span></a>
+    <div class="workspace-label">TU MESA DE ANÁLISIS</div>
+    <nav aria-label="Secciones del panel">
+      <a class="active" href="#overview"><span>01</span> Resumen</a>
+      <a href="#opportunities"><span>02</span> Oportunidades</a>
+      <a href="#fixtures"><span>03</span> Partidos y modelo</a>
+      <a href="#champions"><span>UEFA</span> Champions</a>
+      <a href="#context"><span>04</span> Noticias y contexto</a>
+      <a href="#ledger"><span>05</span> Mis apuestas</a>
+      <a href="#progress"><span>06</span> Avance y cobertura</a>
+    </nav>
+    <div class="sidebar-bottom"><span class="local-dot"></span> En tu ordenador<p>Bet365 · LaLiga y Champions · EUR</p><p>Tú decides y realizas cada apuesta.</p></div>
+  </aside>
+  <main>
+    <header class="topbar"><div class="breadcrumb">Mi panel <span>/</span> LaLiga y Champions League</div><div id="connection" class="connection"><span class="status-dot"></span><span>Conectando…</span></div></header>
+    <section id="overview" class="section">
+      <div class="page-heading"><div><p class="eyebrow">LALIGA Y UEFA CHAMPIONS LEAGUE</p><h1>Tu panel de apuestas<span>.</span></h1><p class="page-intro">Dos competiciones, modelos propios y un mismo presupuesto. Tú haces cada apuesta.</p></div><div class="heading-actions"><button id="refreshButton" class="button primary" type="button">Actualizar todo <span aria-hidden="true">↗</span></button><details class="panel-tools"><summary>Más opciones</summary><p>Actualizar todo renueva datos, noticias y modelos. Renovar precios consulta la candidata prioritaria; el seguimiento renueva ambas competiciones automáticamente.</p><a id="reportLink" class="button secondary" href="/reports/latest.html" target="_blank" rel="noopener">Ver informe completo</a></details></div></div>
+      <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+      <div id="coverageBanner" class="coverage-banner"><span class="banner-icon" aria-hidden="true">i</span><div><strong>Comprobando las fuentes</strong><p>Las cuotas y las oportunidades aparecerán con su estado de verificación.</p></div></div>
+      <div class="metrics-grid">
+        <article class="metric-card"><div class="metric-label">Dinero libre <span class="mini-icon">€</span></div><div class="metric-value" id="availableAmount">—</div><div class="metric-note" id="balanceNote">Pendiente de consultar el registro</div></article>
+        <article class="metric-card"><div class="metric-label">En apuestas pendientes <span class="mini-icon">↗</span></div><div class="metric-value" id="committedAmount">—</div><div class="metric-note">Solo las que has registrado como realizadas</div></article>
+        <article class="metric-card accent-card"><div class="metric-label">Importe propuesto ahora <span class="mini-icon">◎</span></div><div class="metric-value" id="recommendedAmount">—</div><div class="metric-note" id="recommendationNote">A la espera del análisis</div></article>
+        <article class="metric-card"><div class="metric-label">Oportunidades vigentes <span class="mini-icon">↗</span></div><div class="metric-value" id="opportunityCount">—</div><div class="metric-note" id="reportTime">Aún sin informe</div></article>
+      </div>
+      <div class="monitor-bar"><div><span id="monitorDot" class="status-dot muted"></span><strong id="monitorLabel">Seguimiento sin iniciar</strong><span id="monitorDetails">Solo en este panel, mientras el bot esté abierto.</span></div><button id="monitorButton" class="text-button" type="button">Iniciar seguimiento</button></div>
+      <div class="quick-start"><strong>Tu rutina</strong><span>1. Revisa la propuesta</span><span>2. Comprueba el precio y apuesta tú en Bet365</span><span>3. Registra lo que has apostado</span></div><details class="card subtle-details"><summary>Ayuda: cómo usar el panel</summary><ol class="usage-guide"><li><a href="#ledger">Confirma tu saldo libre</a> y registra las apuestas pendientes. El saldo debe ser de hoy.</li><li>Mira <a href="#opportunities">Apuestas recomendadas</a>. Cada propuesta indica partido, mercado, selección, cuota mínima, importe y motivos.</li><li>Pulsa <strong>1. Comprobar precio</strong> y abre <strong>2. Ver en Bet365</strong>. Comprueba el mismo partido, mercado y selección; si la cuota es inferior a la mínima, descarta la propuesta.</li><li>Si decides apostar, hazlo tú en Bet365. Después pulsa <strong>3. Ya la he apostado</strong> y registra la cuota y el importe realmente aceptados.</li><li>Cuando termine, liquida el resultado en <a href="#ledger">Mis apuestas</a>. Si no hay propuestas vigentes o el importe es 0 €, el bot no recomienda esa apuesta.</li></ol><p id="bet365ComparisonSummary" class="helper"></p></details>
+    </section>
+    <section id="opportunities" class="section">
+      <div class="section-heading"><div><p class="eyebrow">QUÉ APOSTAR, CUÁNTO Y POR QUÉ</p><h2>Apuestas recomendadas</h2></div><button id="refreshQuotesButton" class="button secondary" type="button">Renovar precios</button><span id="candidateCount" class="tag">Sin datos</span></div>
+      <p class="section-intro">Aquí ves las propuestas que pasan los controles del bot. Son estimaciones: pueden perder. Las apuestas las haces tú en Bet365.</p>
+      <div id="summary" class="summary-note" hidden></div>
+      <details id="filtersDetails" class="simple-filters"><summary>Buscar o filtrar por competición, equipo y mercado</summary><div class="candidate-filters" aria-label="Filtrar observaciones">
+        <label for="competitionFilter">Competición<select id="competitionFilter"><option value="">LaLiga y Champions</option><option value="LaLiga">LaLiga</option><option value="Champions">Champions League</option></select></label>
+        <label for="candidateSearch">Buscar equipo o selección<input id="candidateSearch" type="search" placeholder="Ej. Athletic, más de 2,5…" maxlength="200"></label>
+        <label for="marketFilter">Mercado<select id="marketFilter"><option value="">Todos los mercados</option></select></label>
+        <label for="fixtureFilter">Partido<select id="fixtureFilter"><option value="">Todos los partidos</option></select></label>
+        <label for="statusFilter">Estado<select id="statusFilter"><option value="all">Todas las observaciones</option><option value="active">Solo oportunidades vigentes</option><option value="observations">Solo en observación</option><option value="validated">Con validación superada</option><option value="unvalidated">Validación pendiente</option></select></label>
+      </div></details>
+      <div class="filter-status"><span id="filterSummary">Se muestran las propuestas vigentes.</span><button id="viewObservations" type="button" class="text-button">Ver opciones no recomendadas</button><button id="clearFilters" type="button" class="text-button">Limpiar filtros</button></div>
+      <div id="opportunityList" class="opportunity-list"><div class="empty-state"><span aria-hidden="true">◎</span><h3>El análisis aparecerá aquí</h3><p>Actualiza los datos para ver los partidos y sus condiciones.</p></div></div>
+      <div id="paginationBar" class="pagination-bar" hidden><button id="loadMoreButton" type="button" class="button secondary">Ver 20 observaciones más</button><span id="paginationNote"></span></div>
+      <details class="card subtle-details"><summary>Condiciones y límites de este informe</summary><ul id="limitations"></ul></details>
+    </section>
+    <section id="fixtures" class="section">
+      <div class="section-heading"><div><p class="eyebrow">DETRÁS DEL PRONÓSTICO</p><h2>Partidos y modelo</h2></div><span id="fixtureCount" class="tag">Sin calendario</span></div>
+      <div id="fixturesList" class="fixtures-grid"></div>
+      <article class="card evaluation-card"><div class="card-heading"><div><h3>Evaluación del modelo de LaLiga</h3><p>La calidad de las probabilidades se comprueba con partidos que no se usaron para entrenarlo. Champions tiene su evaluación propia en su sección.</p></div><span id="modelGate" class="tag">Pendiente</span></div><div id="evaluationSummary" class="empty-compact">Aún no hay una evaluación disponible.</div></article>
+    </section>
+    <section id="champions" class="section">
+      <div class="section-heading"><div><p class="eyebrow">MODELO Y EVALUACIÓN PROPIOS</p><h2>Champions League</h2></div><span id="championsCount" class="tag">Comprobando el análisis</span></div>
+      <p id="championsDescription" class="section-intro">El análisis de Champions comparte saldo y límites con LaLiga. Cada propuesta exige comprobar datos, modelo y cuota.</p>
+      <button id="championsRecommendations" type="button" class="button secondary">Ver apuestas de Champions</button>
+      <p id="championsTime" class="helper">Sin consulta actual.</p>
+      <ul id="championsChecklist" class="helper"><li>☐ Históricos y modelo propios de Champions</li><li>☐ Evaluación por fechas y por mercado</li><li>☐ Contraste de cuotas con Bet365 España</li></ul>
+      <div id="championsList" class="fixtures-grid"></div>
+      <article class="card"><h3>Evaluación del modelo de Champions</h3><div id="championsEvaluation" class="helper">Pendiente de cargar.</div></article>
+    </section>
+    <section id="context" class="section">
+      <div class="section-heading"><div><p class="eyebrow">LO QUE SABEMOS Y LO QUE FALTA</p><h2>Noticias y contexto</h2></div><button id="newsButton" class="button secondary" type="button">Revisar noticias con Qwen</button></div>
+      <div id="newsStatus" class="summary-note">Sin noticias recibidas. Esto no significa que no haya lesiones o bajas.</div>
+      <div id="factsList" class="facts-grid"></div><div id="newsList" class="news-grid"></div>
+    </section>
+    <section id="ledger" class="section">
+      <div class="section-heading"><div><p class="eyebrow">EL CONTROL LO TIENES TÚ</p><h2>Mi registro de apuestas</h2></div><span class="tag">Ningún botón apuesta por ti</span></div>
+      <div class="ledger-setup">
+        <article class="card"><h3>Confirma tu saldo disponible</h3><p class="muted-copy">Introduce el dinero libre que ves en Bet365. Las apuestas pendientes que hayas registrado se contabilizan aparte. Una conciliación queda anotada como ajuste, no como beneficio.</p><form id="balanceForm" class="inline-form"><label for="balanceInput">Saldo libre en Bet365 (€)<input id="balanceInput" name="balanceEur" type="number" min="0" max="1000000" step="0.01" placeholder="100,00" required></label><button class="button primary" type="submit">Confirmar saldo</button></form><p id="confirmedTime" class="helper">El presupuesto inicial de 100 € todavía no es un saldo confirmado.</p><div class="minimum-preference"><form id="preferencesForm" class="inline-form"><label for="minimumInput">Mínimo de apuesta que admite tu cuenta (€)<input id="minimumInput" name="minStakeEur" type="number" min="0.01" max="100" step="0.01" placeholder="Compruébalo en Bet365" required></label><button class="button secondary" type="submit">Guardar mínimo</button></form><p id="minimumNote" class="helper">Sin un mínimo confirmado, el bot mantiene el importe propuesto en 0 €.</p></div></article>
+        <article class="card ledger-principle"><div class="principle-icon" aria-hidden="true">↗</div><h3>Primero apuestas tú.<br>Después lo anotas aquí.</h3><p>El informe no descuenta dinero. El registro conserva el importe y la cuota que realmente aceptó Bet365, junto con tus correcciones y resultados.</p><div id="ledgerTotals" class="ledger-totals"></div></article>
+      </div>
+      <details id="betFormDetails" class="card bet-form-card"><summary>Registrar una apuesta que ya he hecho</summary>
+        <form id="betForm" class="form-grid"><input name="eventId" type="hidden"><input name="recommendationId" type="hidden">
+          <label class="span-two">Partido<input name="eventName" list="fixtureOptions" placeholder="Ej. Local — Visitante" maxlength="500" required><datalist id="fixtureOptions"></datalist></label>
+          <label>Mercado<input name="market" placeholder="Ej. Resultado del partido" maxlength="500" required></label><label>Selección<input name="selection" placeholder="Ej. Equipo local" maxlength="500" required></label>
+          <label>Cuota aceptada<input name="price" type="number" min="1.001" step="any" placeholder="2,10" required></label><label>Importe aceptado (€)<input name="stakeEur" type="number" min="0.01" step="0.01" required></label>
+          <label>Libro del registro<select name="mode"><option value="manual">Apuesta real que he realizado</option><option value="simulation">Simulación — sin dinero real</option></select></label>
+          <div class="form-submit"><button class="button primary" type="submit">Guardar en mi registro</button></div><p class="helper span-all">Esto solo anota la apuesta; no la envía a Bet365. Revisa que la cuota, el importe y el libro sean los correctos.</p>
+        </form>
+      </details>
+      <div class="ledger-toolbar"><div class="segmented" aria-label="Libro de apuestas"><button id="manualTab" class="selected" type="button">Mis apuestas reales</button><button id="simulationTab" type="button">Simulación</button></div><span id="ledgerCount" class="muted-copy"></span></div>
+      <div id="betsTable" class="card table-card"></div>
+      <details class="card subtle-details"><summary>Historial de movimientos y correcciones</summary><div id="ledgerEvents"></div></details>
+    </section>
+    <section id="progress" class="section">
+      <div class="section-heading"><div><p class="eyebrow">CONSTRUIDO Y COMPROBADO, PASO A PASO</p><h2>Avance y cobertura</h2></div><span id="progressCount" class="tag">Consultando…</span></div>
+      <div class="progress-track"><div id="progressFill"></div></div><div id="progressList" class="progress-grid"></div>
+      <article class="card"><h3>Comprobaciones de fuentes y vigilancia</h3><button id="acceptanceButton" class="button secondary" type="button">Comprobar evidencia y pruebas</button><p id="acceptanceDate" class="helper">Pendiente de ejecutar la aceptación con evidencia.</p><div id="acceptanceChecks"></div><p id="acceptanceMetrics" class="helper"></p></article>
+      <article class="card"><h3>Conectar las cuotas gratuitas</h3><p>MoviOdds exige ahora una clave de API. Obtén una clave del plan Free en <a href="https://moviodds.com/account" target="_blank" rel="noopener noreferrer">MoviOdds</a> y guárdala aquí. No necesitas las credenciales de Bet365.</p><form id="providerForm" class="inline-form"><label>Clave de MoviOdds<input type="password" name="key" maxlength="256" autocomplete="off" required></label><button class="button secondary" type="submit">Guardar clave local</button></form><p id="providerStatus" class="helper"></p></article>
+      <article class="card"><h3>Cobertura del histórico</h3><div id="coverageTable" class="table-wrap"></div></article>
+      <article class="card"><h3>Familias y mercados</h3><p class="muted-copy">El motor solo compara los mercados con modelo y datos disponibles. Una familia pendiente conserva su alcance, pero no produce apuestas.</p><div id="marketCatalog" class="catalog-grid"></div></article>
+      <div id="errorList" class="error-list"></div>
+      <div class="backup-bar"><div><h3>Conserva una copia recuperable</h3><p>Incluye los datos, la configuración y tu registro local.</p></div><button id="backupButton" class="button secondary" type="button">Crear copia de seguridad</button></div>
+    </section>
+    <footer>LaLiga · Observatorio <span>Fuentes gratuitas · Análisis experimental · Apuestas manuales</span></footer>
+  </main>
+  <dialog id="settleDialog"><form id="settleForm"><div class="dialog-heading"><h2>Registrar el resultado</h2><button class="icon-button" type="button" data-close="settleDialog" aria-label="Cerrar">×</button></div><p id="settleDescription"></p><input name="betId" type="hidden"><label>Resultado confirmado<select name="result"><option value="won">Ganada</option><option value="lost">Perdida</option><option value="void">Nula / devolución completa</option><option value="half_won">Media ganancia</option><option value="half_lost">Media pérdida</option></select></label><label>Devolución total realmente cobrada (€), opcional<input name="payoutEur" type="number" min="0" step="0.01" placeholder="Dejar vacío para calcular según cuota"></label><p class="helper">La devolución incluye la parte del importe que recuperas. El registro guarda esta liquidación una sola vez.</p><button class="button primary" type="submit">Guardar resultado confirmado</button></form></dialog>
+  <dialog id="correctDialog"><form id="correctForm"><div class="dialog-heading"><h2>Corregir mi anotación</h2><button class="icon-button" type="button" data-close="correctDialog" aria-label="Cerrar">×</button></div><p id="correctDescription"></p><input name="betId" type="hidden"><label>Cuota aceptada<input name="price" type="number" min="1.001" step="any" required></label><label>Importe aceptado (€)<input name="stakeEur" type="number" min="0.01" step="0.01" required></label><label>Motivo de la corrección<input name="reason" maxlength="500" required placeholder="Ej. Escribí mal el importe"></label><p class="helper">Se conserva el dato anterior en el historial. Esta corrección no cambia ninguna apuesta de Bet365.</p><button class="button primary" type="submit">Guardar corrección</button></form></dialog>
+</body>
+</html>

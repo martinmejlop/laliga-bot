@@ -1,0 +1,154 @@
+{
+  "version": 2,
+  "expiresAfterHours": 24,
+  "publicOnly": true,
+  "scope": "Solo identidades muestreadas de Athletic–Espanyol. Compatibilidad de cobertura; no precio español actual ni condiciones de cuenta.",
+  "coverage": [
+    {
+      "eventId": "203186591",
+      "groupId": "10114",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-20T16:27:50.358Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186591/F3/G40/",
+      "scope": "sampled-coverage",
+      "selections": [
+        {
+          "selectionId": "260011506",
+          "line": null,
+          "sourcePrice": 2.625,
+          "displayPrice": 2.62,
+          "label": "Draw or Espanyol",
+          "side": "draw_away"
+        },
+        {
+          "selectionId": "260011508",
+          "line": null,
+          "sourcePrice": 1.1818181818181819,
+          "displayPrice": 1.18,
+          "label": "Athletic Club or Espanyol",
+          "side": "home_away"
+        },
+        {
+          "selectionId": "260011510",
+          "line": null,
+          "sourcePrice": 1.1111111111111112,
+          "displayPrice": 1.11,
+          "label": "Athletic Club or Draw",
+          "side": "home_draw"
+        }
+      ]
+    },
+    {
+      "eventId": "203186591",
+      "groupId": "10150",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-20T16:27:50.358Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186591/F3/G40/",
+      "scope": "sampled-coverage",
+      "selections": [
+        {
+          "selectionId": "260015308",
+          "line": null,
+          "sourcePrice": 1.8,
+          "displayPrice": 1.8,
+          "label": "Yes",
+          "side": "yes"
+        },
+        {
+          "selectionId": "260015313",
+          "line": null,
+          "sourcePrice": 1.95,
+          "displayPrice": 1.95,
+          "label": "No",
+          "side": "no"
+        }
+      ]
+    },
+    {
+      "eventId": "203186591",
+      "groupId": "10544",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-20T16:27:50.358Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186591/F3/G40/",
+      "scope": "sampled-coverage",
+      "selections": [
+        {
+          "selectionId": "260011577",
+          "line": null,
+          "sourcePrice": 1.1666666666666667,
+          "displayPrice": 1.16,
+          "label": "Athletic Club",
+          "side": "home"
+        },
+        {
+          "selectionId": "260011578",
+          "line": null,
+          "sourcePrice": 5,
+          "displayPrice": 5,
+          "label": "Espanyol",
+          "side": "away"
+        }
+      ]
+    },
+    {
+      "eventId": "203186591",
+      "groupId": "40",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-20T16:27:50.358Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186591/F3/G40/",
+      "scope": "sampled-coverage",
+      "selections": [
+        {
+          "selectionId": "257836178",
+          "line": null,
+          "sourcePrice": 1.48,
+          "displayPrice": 1.48,
+          "label": "Athletic Club",
+          "side": "home"
+        },
+        {
+          "selectionId": "257836185",
+          "line": null,
+          "sourcePrice": 4.5,
+          "displayPrice": 4.5,
+          "label": "Draw",
+          "side": "draw"
+        },
+        {
+          "selectionId": "257836188",
+          "line": null,
+          "sourcePrice": 6.5,
+          "displayPrice": 6.5,
+          "label": "Espanyol",
+          "side": "away"
+        }
+      ]
+    },
+    {
+      "eventId": "203186591",
+      "groupId": "981",
+      "period": "full_time_regulation",
+      "checkedAt": "2026-11-20T16:27:50.358Z",
+      "url": "https://www.bet365.es/#/AC/B1/C1/D8/E203186591/F3/G40/",
+      "scope": "sampled-coverage",
+      "selections": [
+        {
+          "selectionId": "257836190",
+          "line": 2.5,
+          "sourcePrice": 1.6153846153846154,
+          "displayPrice": 1.61,
+          "label": "Over · 2.5",
+          "side": "over"
+        },
+        {
+          "selectionId": "257836195",
+          "line": 2.5,
+          "sourcePrice": 2.3,
+          "displayPrice": 2.3,
+          "label": "Under · 2.5",
+          "side": "under"
+        }
+      ]
+    }
+  ]
+}
